@@ -1,0 +1,287 @@
+/* signup.css */
+body {
+  background-image: url("../assets/15592495_5641362.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+}
+.pb {
+  display:inline-flex;
+  margin-top: -4%;
+  margin-left: -2%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.ww {
+  max-width: 400px;
+  margin: auto;
+  margin-left: -10%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input-box img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.check{
+  margin-left: -60%;
+  
+}
+.check .gender{
+  margin-left: -3%;
+}
+.check  .y{
+  margin-left: 15%;
+}
+.check .m{
+  margin-left: 10%;
+}
+
+.select .question{
+  margin-bottom: 15px;
+  margin-top: 0.5%;
+  margin-left: -10%;
+}
+
+
+.select .j {
+  margin-left: -23%;
+}
+.select .e {
+  margin-left: -3%;
+}
+.select .p {
+  margin-left: 10%;
+}
+.select .question{
+ font-size: 20px;
+ margin-left: -8%;
+}
+.signup-btn {
+  width: 100%;
+  padding: 10px 25px;
+  margin-top: 10%;
+  background-color: #922c94;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 14%;
+  transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+  background-color:#922c94;
+}
+
+.sign-up-link {
+  margin-top: 20px;
+  margin-left: 13%;
+  width: 100%;
+  text-align: center;
+  color:#922c94;
+}
+
+.sign-up-link p {
+  color:#000;
+  font-size: 14px;
+}
+
+.sign-up-link a {
+  color:#000;
+  text-decoration: none;
+  
+}
+
+.sign-up-link a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.im img{
+  position: left;
+  width: 70%;
+  margin-left: -10%;
+
+  
+}
+@media only screen and (max-width:475px){
+  .pb{
+    display: block;
+    margin-left: 5%;
+  }
+  .ww{
+    width: 80%;
+    margin-left: 7%;
+  }
+  .check .gender{
+    font-size: 17px;
+    margin-left: -10%;
+  }
+  .select .e {
+    margin-left: -10%;
+  }
+  .select .p {
+    margin-left: 1%;
+    
+  }
+  .select .j{
+    margin-left: -27%;
+  }
+}
+@media only screen and (min-width:319px)and (max-width:600px){
+  .select .question{
+    font-size: 17px;
+    margin-left: -45%;
+    margin-top: 2%;
+    width: 100%;
+    padding-left: -15%;
+   }
+  .pb{
+    display: block;
+    margin-left: 5%;
+  }
+  .ww{
+    width: 80%;
+    margin-left: 7%;
+  }
+  .check .gender{
+    font-size: 17px;
+    margin-left: -10%;
+  }
+  .select .e {
+    margin-left: -1%;
+  }
+  .select .p {
+    margin-left: 14%;
+    
+  }
+  .select .j{
+    margin-left: -24%;
+  }
+}
+@media only screen and (min-width:374px)and (max-width:423px){
+  .select .e {
+    margin-left: -7%;
+  }
+  .select .p {
+    margin-left: 5.5%;
+    
+  }
+  .select .j{
+    margin-left: -26%;
+  }
+}
+@media only screen and (min-width:424px)and (max-width:760px){
+  .select .e {
+    margin-left: -7%;
+  }
+  .select .p {
+    margin-left: 5%;
+    
+  }
+  .select .j{
+    margin-left: -24%;
+  }
+}
+@media only screen and (min-width:768px){
+  .pb{
+    width: 250%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  
+  .select .question{
+    font-size: 17px;
+    margin-left: -45%;
+    margin-top: 2%;
+    width: 100%;
+    padding-left: -15%;
+   }
+   .ww {
+    max-width: 400px;
+    margin: auto;
+    margin-left: -15%;
+  }
+  .im{
+    margin-left:-10%;
+    width: 85%;
+  }
+  .check .gender{
+    font-size: 21px;
+    margin-top: -.5%;
+  }
+}
+@media only screen and (min-width:374px)and (max-width:423){
+  .select .e {
+    margin-left: -4%;
+  }
+  .select .p {
+    margin-left: 1%;
+    
+  }
+  .select .j{
+    margin-left: -24%;
+  }
+}
+
+
+@media only screen and (min-width:1023px){
+  .pb{
+    width: 250%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  
+  .select .question{
+    font-size: 17px;
+    margin-left: -49%;
+    margin-top: 1.5%;
+    width: 100%;
+    padding-left: -12%;
+   }
+   .ww {
+    max-width: 400px;
+    margin: auto;
+    margin-left: -15%;
+  }
+  .im{
+    margin-left:-10%;
+    width: 85%;
+  }
+  .check .gender{
+    font-size: 20px;
+    margin-top: -.5%;
+  }
+}

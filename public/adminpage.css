@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+    background-image: none;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+}
+
+/* TheNav component styles */
+.my-nav {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 100px;
+    color: #1e427f;
+    background-color: #fff;
+}
+
+/* Responsive styles */
+
+/* Small devices (up to 576px) */
+@media screen and (max-width: 576px) {
+.my-nav {
+    height: auto;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+}
+
+/* Medium devices (576px - 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+.my-nav {
+    height: auto;
+    padding: 40px;
+    font-size: 60px;
+    text-align: center;
+}
+}
+
+/* Large devices (768px - 992px) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.my-nav {
+    height: auto;
+    padding: 60px;
+    font-size: 80px;
+    text-align: center;
+}
+}

@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
+/* lab min=1024 */
+/* General Styles */
+body {
+    background-color:#fff;
+    background-image: url("../src/assets/project\ nary\ logo.png");
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+/* Website Title */
+.website {
+text-align: center;
+font-family:pacifico;
+color: rgba(146, 44, 148, 1);
+font-size: 60px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+/* Description */
+.descript {
+text-align: center;
+color: black;
+font-size: 36px;
+margin: 20px auto;
+padding: 20 20px;
+max-width: 800px;
+}
+
+/* Get Started Button */
+.get-start {
+display: flex;
+margin: 20px auto;
+color: #fff;
+background-color: rgba(146, 44, 148, 1);
+border: 2px solid rgba(146, 44, 148, 1);
+border-radius: 10px;
+font-size: 30px;
+cursor: pointer;
+height: 60%;
+text-align: center;
+}
+a{
+    text-decoration: none ;
+    
+}
+
+/* Start Container */
+.start {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+background: #fff;
+padding: 20px;
+height: 100vh;
+
+}
+
+/* Images */
+.img1 {
+display: flex;
+align-items: center;
+position: fixed;
+margin: 0 auto 20px;
+width: 200px;
+height: 400px;
+top: 0;
+left: 0;
+}
+
+.img2 {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+position: fixed;
+margin: 0 auto;
+width: 200px;
+height: 400px;
+bottom: 0;
+right: 0;
+}
+/* ---responseve--- */
+/* lab 1024 */
+@media (max-width: 1024px){
+    .descript {
+        text-align: center;
+        color: black;
+        font-size: 30px;
+        margin: 20px auto;
+        padding: 20 20px;
+        max-width: 600px;
+        }
+    .img1 {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        margin: 0 auto 20px;
+        width: 150px;
+        height: 350px;
+        top: 0;
+        left: 0;
+        }
+        
+        .img2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+        margin: 0 auto;
+        width: 150px;
+        height: 350px;
+        bottom: 0;
+        right: 0;
+        }    
+}
+/* tablet 768 */
+@media (max-width: 768px){
+    .descript {
+        text-align: center;
+        color: black;
+        font-size: 28px;
+        margin: 20px auto;
+        padding: 20 20px;
+        max-width: 500px;
+        }
+    .img1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin: 0 auto 20px;
+        width: 130px;
+        height: 300px;
+        top: 0;
+        left: 0;
+        }
+        
+    .img2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        margin: 0 auto;
+        width: 130px;
+        height: 300px;
+        bottom: 0;
+        right: 0;
+        }    
+}
+/* mobile */
+@media (max-width: 425px) and (min-width: 320px) {
+    .website {
+        text-align: center;
+        color: rgba(146, 44, 148, 1);
+        font-size: 40px;
+        margin-bottom: 20px;
+        }
+        
+        /* Description */
+        .descript {
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        margin: 0px auto;
+        padding: 20 20px;
+        max-width: 300px;
+        }
+        
+        /* Start Container */
+        .start {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background: rgba(237, 234, 234, 1);
+        padding: 20px;
+        height: 100vh;
+        }
+        
+        /* Images */
+        .img1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin: 0 auto 20px;
+        width: 90px;
+        height: 150px;
+        top: 0;
+        left: 0;
+        }
+        
+        .img2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        margin: 0 auto;
+        width: 90px;
+        height: 150px;
+        bottom: 0;
+        right: 0;
+        }
+
+}

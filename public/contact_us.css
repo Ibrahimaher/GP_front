@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
+
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.vid {
+    justify-content: left;
+    margin-left: -80%;
+    font-family: pacifico;
+    margin-top: -1%;
+    font-size: 40px;
+    color: rgba(146, 44, 148, 1);
+  }
+  .my-nav {
+    display: flex;
+    justify-content: right;
+    height: 25%;
+    width: 70%;
+    gap: 10;
+    color: rgb(132, 119, 119);
+    margin-left: 21.5%;
+    margin-top: -10%;
+    padding: 30px;
+  }
+  .my-nav .pp {
+    display: contents;
+    font-size: 30px;
+    margin-left: 10%;
+    width: 100%;
+    padding-left: 70%;
+  }
+  .my-nav a {
+    margin-left: 2%;
+  }
+#app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.all{
+  margin-left: 1%;
+  width: 50%;
+  height: 250pt;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  display:inline-flex;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.sendmsg{
+  display:grid;
+  margin-left: 50%;
+}
+.sendmsg  input{
+margin-top: -1%;
+height: 40%;
+
+}
+.sendmsg button{
+  height: 45%;
+  font-size: 18px;
+  background-color: #922c94;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.sendmsg .sent{
+  color: #922c94;
+  font-size: 22px;
+  margin-bottom: -15%;
+}
+.icon{
+  margin-top: 15%;
+  margin-left: 10%;
+
+ 
+
+}
+.icon label{
+  color: #797777;
+}
+/* Responsive styles */
+
+/* Small devices (up to 576px) */
+@media screen and (max-width: 576px) {
+#app {
+    margin-top: 20px;
+}
+}
+
+/* Medium devices (576px - 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+#app {
+    margin-top: 30px;
+}
+}
+
+/* Large devices (768px - 992px) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+#app {
+    margin-top: 40px;
+}
+}

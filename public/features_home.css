@@ -1,0 +1,32 @@
+body {
+    background: var(--gray, #fff);
+    background-image: none;
+  }
+  .container {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: var(--gray, #fff);
+  }
+  
+  .all-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 45px;
+    align-items: center;
+    background: var(--gray, #fff);
+    margin-right: 500px;
+  }
+  
+  .features-card-wrapper {
+    margin-right: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: none;
+  }

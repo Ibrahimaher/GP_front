@@ -1,0 +1,463 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
+
+body {
+    background-image: none;
+    background: #fff;
+    margin: 8;
+    padding: 0;
+    
+}
+.vid{
+    justify-content: left;
+    margin-left: -80%;
+    font-family:pacifico;
+    margin-top: 2%;
+    font-size: 40px;
+    color: rgba(146, 44, 148, 1);
+}
+.my-nav {
+    display: flex;
+    justify-content: right;
+    height: 25%;
+    width: 70%;
+    gap: 10;
+    color: rgb(132, 119, 119);
+    margin-left: 21%;
+    margin-top: -10%;
+    padding: 30px;
+}
+.my-nav .pp { 
+display:contents;
+font-size: 30px;
+margin-left: 10%;
+width: 100%;
+padding-left: 70%;
+}
+.my-nav a{
+margin-left: 2%;
+}
+.my-main {
+background: rgba(237, 234, 234, 1);
+}
+.Bakgroun {
+background:#fff;
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(146, 44, 148, 1);
+    border-radius: 120pt;
+    margin-top: -30%;
+    margin-left: 25%;
+}
+.info .userInfo p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15pt;
+}
+.info .userInfo {
+    margin-top: 0%;
+}
+.info {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    position: center;
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgba(146, 44, 148, 1);
+    border-radius: 15pt;
+    margin-top: 7%;
+    margin-bottom: 30px;
+    margin-left: 10%;
+
+}
+.input-box {
+    position: relative;
+    border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.twobans {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    position: center;
+    gap: 50px;
+}
+.edit {
+    background-color: rgba(146, 44, 148, 1);
+    color: white;
+    font-size: 20pt;
+    border-radius: 10pt;
+    width: 85pt;
+    height: 85%;
+    border: 2px solid var(--gray2, rgba(146, 44, 148, 1));
+    cursor: pointer;
+    margin-top: 10%;
+}
+.logout {
+    background-color: rgba(237, 234, 234, 1);
+    color:#797777;
+    font-size: 20pt;
+    border-radius: 10pt;
+    width: 85pt;
+    height: 85%;
+    border: 2px solid var(--gray2, #797777);
+    cursor: pointer;
+    margin-top: 10%;
+}
+/* ---responseve--- */
+/* lab 1440 */
+@media (max-width: 1440px){
+    .body{
+        overflow-y: hidden;
+    }
+    
+    
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 170px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 120pt;
+        margin-top: -25%;
+        margin-left: 25.5%;
+    }
+    .info {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        width: 575px;
+        height: 350px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 15pt;
+        margin-top: 7%;
+        margin-left: 25%;
+        
+    }
+    .input-box {
+    position: relative;
+    border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+    margin-bottom: 30px;
+    width: 400px;
+    }
+    .input-box {
+        position: relative;
+        border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    .twobans {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        gap: 50px;
+        margin-top: -2.5%;
+        margin-bottom: 0px;
+        margin-left: -2%;
+        
+    }
+}
+
+/* lab 1024 */
+@media (max-width: 1024px){
+    .vid{
+        margin-left: -60%;
+        margin-top: 2%;
+        font-size: 45px;
+    }
+    .my-nav .pp {
+    font-size: 25px;
+    }
+    .my-nav{
+    margin-top: -12%;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 120pt;
+        margin-top: -25%;
+        margin-left: 120px;
+    }
+    .info {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        width: 500px;
+        height: 350px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 15pt;
+        margin-top: 80px;
+        margin-left: 250px;
+        
+    }
+    .input-box {
+    position: relative;
+    border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+    margin-bottom: 30px;
+    width: 250px;
+    }
+    .input-box {
+        position: relative;
+        border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    .twobans {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        gap: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+/* tablet */
+@media (max-width: 768px){
+    .vid{
+        margin-left: -60%;
+        margin-top: 4%;
+        font-size: 35px;
+    }
+    .my-nav .pp {
+    font-size: 25px;
+    }
+    .my-nav{
+    margin-top: -14%;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 120pt;
+        margin-top: -20%;
+        margin-left: 25.5%;
+    }
+    .info {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        width: 500px;
+        height: 350px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 15pt;
+        margin-top: 90px;
+        margin-left: 130px;
+        
+    }
+    .input-box {
+        position: relative;
+        border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+        border-radius: 10px;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+    .edit {
+        font-size: 20pt;
+    }
+    .logout {
+        font-size: 20pt;
+    }
+}
+/* mobile 425 */
+@media (max-width: 425px){
+    .vid{
+        justify-content: left;
+        margin-left: -50%;
+        font-family:pacifico;
+        margin-top: 2%;
+        font-size: 40px;
+        color: rgba(146, 44, 148, 1);
+    }
+    .my-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        font-size: 20px;
+        top: 0;
+        right: 0;
+        width: 100px; 
+        height: 200px;
+        margin-top: -3%;
+        margin-left: -100%;
+    }
+    .info {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        width: 350px;
+        height: 300px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 15pt;
+        margin-top: 40%;
+        margin-left: 30px;
+        
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 120pt;
+        margin-left: 25.5%;
+        margin-top: -25%;
+    }
+    .input-box {
+        position: relative;
+        border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+    }
+    .input-box input {
+        font-size: 12px;
+    }
+    .twobans {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        gap: 25px;
+    }
+    .edit {
+        height: 30pt;
+        font-size: 20pt;
+    }
+    .logout {
+        height: 30pt;
+        font-size: 20pt;
+    }
+}
+/* mobile 375px */
+@media (max-width: 375px){
+    .vid{
+        justify-content: left;
+        margin-left: -50%;
+        font-family:pacifico;
+        margin-top: 2%;
+        font-size: 35px;
+        color: rgba(146, 44, 148, 1);
+    }
+    .info {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        width: 300px;
+        height: 300px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 15pt;
+        margin-top: 40%;
+        margin-left: 30px;
+        
+    }
+}
+/* mobile 320px */
+@media (max-width: 320px){
+    .vid{
+        justify-content: left;
+        margin-left: -50%;
+        font-family:pacifico;
+        margin-top: 2%;
+        font-size: 30px;
+        color: rgba(146, 44, 148, 1);
+    }
+    .my-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        font-size: 15px;
+        top: 0;
+        right: 0;
+        width: 100px; 
+        height: 200px;
+        margin-top: -3%;
+        margin-left: -100%;
+    }
+    .my-nav .pp {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .info {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        width: 250px;
+        height: 250px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 15pt;
+        margin-top: 40%;
+        margin-left: 25px;
+        
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        border: 2px solid rgba(146, 44, 148, 1);
+        border-radius: 120pt;
+        margin-left: 25.5%;
+        margin-top: -25%;
+    }
+    .input-box {
+        position: relative;
+        border: 3px solid var(--purple, rgba(146, 44, 148, 1));
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+    .twobans {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        gap: 15px;
+    }
+    .edit {
+        height: 30pt;
+        width: 80pt;
+        font-size: 15pt;
+    }
+    .logout {
+        height: 30pt;
+        width: 80pt;
+        font-size: 15pt;
+    }
+}

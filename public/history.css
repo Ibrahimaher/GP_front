@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
+
+
+body {
+  background-color: #fff;
+}
+
+.vid {
+  justify-content: left;
+  margin-left: -80%;
+  font-family: pacifico;
+  margin-top: 2%;
+  font-size: 40px;
+  color: rgba(146, 44, 148, 1);
+}
+.my-nav {
+  display: flex;
+  justify-content: right;
+  height: 25%;
+  width: 70%;
+  gap: 10;
+  color: rgb(132, 119, 119);
+  margin-left: 22%;
+  margin-top: -10%;
+  padding: 30px;
+}
+.my-nav .pp {
+  display: contents;
+  font-size: 30px;
+  margin-left: 10%;
+  width: 100%;
+  padding-left: 70%;
+}
+.my-nav a {
+  margin-left: 2%;
+}
+.vide {
+  width: 40%;
+  height:200pt;
+  border-radius: 8%;
+  margin-left: 1%;
+  margin-top: 5%;
+ background-color:#797777;
+}
+
+
+.des1{
+    margin-top: -1%;
+ 
+}
+.his .his_video{
+  margin-left: 10%;
+}

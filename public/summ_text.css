@@ -1,0 +1,89 @@
+body {
+    background: #fff;
+    background-image: none;
+    overflow:scroll;
+  }
+  .title{
+    font-size: 30px;
+    text-decoration: solid;
+    margin-top: 1%;
+    margin-bottom: -2.5%;
+    margin-left: -50%;
+    color: #922c94;
+  }
+  .container {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #fff;
+  }
+.output-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60pt;
+  margin-right: 60pt;
+}
+  .all-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: -20%;
+    margin-bottom: 20px;
+    gap: 45px;
+    align-items: center;
+    background: #fff;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .output-field-wrapper {
+    margin-right: 20px;
+    max-height: 300px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .features-card-wrapper {
+    margin-right: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .download-review-wrapper {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .output-buttons{
+      display: flex;
+      flex-direction: column;  
+    }
+    .all-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    gap: 2px;
+    align-items: center;
+    background: var(--gray, #edeaea);
+    margin-left: 2.5%;
+
+  }
+  .features-card-wrapper {
+    margin-right: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5px;
+  }
+}
