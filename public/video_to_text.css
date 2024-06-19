@@ -8,9 +8,10 @@ body {
     text-decoration: solid;
     margin-top: 1%;
     margin-bottom: -3.5%;
-    margin-left: -57%;
+    
     color: #922c94;
   }
+
   .container {
     margin: 20px;
     display: flex;

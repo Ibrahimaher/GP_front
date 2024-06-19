@@ -4,13 +4,14 @@ body {
     overflow:scroll;
   }
   .title{
-    font-size: 30px;
-    text-decoration: solid;
-    margin-top: 1%;
-    margin-bottom: -2.5%;
-    margin-left: -50%;
-    color: #922c94;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-top: 1%;
+  margin-bottom: -2.5%;
+  margin-left: -35%;
+  color: #922c94;
   }
+
   .container {
     margin: 20px;
     display: flex;

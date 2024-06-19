@@ -1,6 +1,5 @@
 <template>
   <div class="the-out">
-    <input type="file" @change="handleFileChange" accept=".txt" />
     <div class="text-container">
       <div class="card">
         <pre class="file-content">{{ fileContent }}</pre>
