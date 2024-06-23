@@ -5,7 +5,10 @@
     <div class="content">
       <div class="output-buttons">
         <div class="output-field-wrapper">
-          <OutputOutputField :fileContent="posts[0].title" />
+          <OutputOutputField
+            v-if="posts.length > 0"
+            :fileContent="posts[0].body"
+          />
         </div>
         <div class="download-review-wrapper">
           <DownloadAndReview />
